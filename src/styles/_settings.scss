@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+@import '../styles/variables';
+
+* {
+    font-family: $font;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    max-height: 100%;
+}
+
+.section__padding {
+        padding: 1.5rem 4rem;
+}
+.section__margin {
+        margin: 2rem 4rem;
+}
+
+.gradient__text {
+        background-image: $gradient-text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+.gradient__button {
+        /* ff 3.6+ */
+        background:-moz-radial-gradient(circle at 1% 102%, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 99%);
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-radial-gradient(circle at 1% 102%, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 99%);
+        /* opera 11.10+ */
+        background:-o-radial-gradient(circle at 1% 102%, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 99%);
+        /* ie 10+ */
+        background:-ms-radial-gradient(circle at 1% 102%, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 99%);
+        /* global 92%+ browsers support */
+        background:radial-gradient(circle at 1% 102%, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 99%);
+}
+
+
+.gradient__background {
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.scale-up-tr {
+	-webkit-animation: scale-up-tr 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-tr 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-tr {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+}
+
+@keyframes scale-up-tr {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+}
+ 

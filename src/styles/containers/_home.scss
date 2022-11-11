@@ -1,0 +1,155 @@
+@import '../variables';
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .home__content {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin: 1.5rem;
+        width: 50%;
+        h1 {
+            font-size: 46px;
+            margin: 0.2rem;
+        }
+        p {
+            font-size: 20px;
+            color: $color-text;
+            margin: 0.2rem;
+        }
+        .btn {
+            margin: 1rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            .btn__contact {
+                padding: 1rem;
+                border: none;
+                font-size: 18px;
+                border-radius: 10px;
+                cursor: pointer;
+                &:hover {
+                    color: white;
+                }
+            }
+            .btn__linkedin,
+            .btn__github, 
+            .btn__twitter {
+                margin: 0 1.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+    .images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 80%;
+            height: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .home {
+        flex-direction: column;
+        .home__content {
+            h1 {
+                font-size: 42px;
+            }
+        }
+        .images {
+            img {
+                width: 80%;
+                height: 80%;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 856px) {
+    .home {
+        .home__content {
+            .btn {
+                .btn__contact {
+                    padding: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .home {
+        .home__content {
+            .btn {
+                .btn__linkedin,
+                .btn__github, 
+                .btn__twitter {
+                    margin: 0 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .home {
+        .home__content {
+            .btn {
+                .btn__contact {
+                    padding: 0.5rem 1rem;
+                    font-size: 15px;
+                }
+                .btn__linkedin {
+                    margin: 12px;
+                    width: 2rem;
+                }
+                .btn__github {
+                    margin: 12px;
+                    width: 2rem;
+                }
+                .btn__twitter {
+                    margin: 12px;
+                    width: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home {
+        padding: 0 0;
+        .home__content {
+            margin: 0;
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .home {
+        .home__content {
+            .btn {
+                .btn__linkedin,
+                .btn__github, 
+                .btn__twitter {
+                    margin: 0 0.2rem;
+                }
+            }
+        }
+    }
+}

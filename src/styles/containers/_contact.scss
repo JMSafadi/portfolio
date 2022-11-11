@@ -1,0 +1,115 @@
+@import '../variables';
+
+.contact__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    color: white;
+    .contact__info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .title__detail {
+            @include text-detail
+        }
+        .contact__title {
+            margin-bottom: 10px;
+        }
+        .contact__email {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            svg {
+                margin: 15px;
+                font-size: 1rem;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+        .contact__phone {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        svg {
+            margin: 15px;
+            font-size: 1rem;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .contact__icons {
+        margin: 1.5rem 0 0 0;
+        .btn__linkedin,
+        .btn__github, 
+        .btn__twitter {
+            margin: 0 2rem;
+            cursor: pointer;
+        }
+    }
+    .contact__form__container {
+        margin: 2rem;
+        .contact__form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            .input__name,
+            .input__mail {
+                padding: 1rem;
+                width: 400px;
+                font-size: 20px;
+                border-radius: 10px;
+            }
+            .input__message {
+                padding: 1rem;
+                border-radius: 10px;
+                width: 400px;
+                height: 330px;
+                font-size: 30px;
+                border: none;
+            }
+            .btn__submit {
+                padding: 1rem;
+                width: 400px;
+                background: $gradient-bar;
+                border-radius: 10px;
+                font-size: 1.2rem;
+                cursor: pointer;
+                &:hover {
+                    font-weight: bold;
+                    color: white;
+                }
+            }
+        }
+    }
+    .up__btn {
+    button {
+        position: relative;
+        cursor: pointer;
+        margin: 0rem 0 1rem 0rem;
+        color: black;
+        padding: 0.7rem;
+        border-radius: 50%;
+        border: 2px solid white;
+        background-color: transparent;
+        svg {
+            color: white;
+            font-size: 20px;
+            border: none;
+        }
+        &:hover {
+            background-color: white;
+            svg {
+                color: black;
+            }
+        }
+    }
+}
+}

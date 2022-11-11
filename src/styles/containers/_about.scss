@@ -1,0 +1,68 @@
+@import '../../styles/variables';
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+         width: 500px;
+         height: 440px;
+      }
+  }
+    .about__container {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        background: $color-footer;
+        /* ff 3.6+ */
+        background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+         /* opera 11.10+ */
+         background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+         /* ie 10+ */
+         background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+         /* global 92%+ browsers support */
+         background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+         .title__detail {
+            @include text-detail
+         }
+         .title {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+         }
+         .about__me {
+            color: $color-text;
+         }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+   .about {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5rem;
+      .image {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         img {
+             width: 80%;
+             height: 80%;
+         } 
+      }
+   }
+}
+
+
+

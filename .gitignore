@@ -7,15 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-vite.config.js.timestamp-1668193454680*
-deploy.sh*
-
-public
 
 node_modules
 dist
 dist-ssr
 *.local
+
+vite.config.js.timestamp-1668193454680*
+deploy.sh*
+
+public
 
 # Editor directories and files
 .vscode/*

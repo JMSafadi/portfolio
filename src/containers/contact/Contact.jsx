@@ -2,8 +2,19 @@ import React from 'react';
 import '../../styles/containers/_contact.scss'
 import { RiGithubFill, RiLinkedinBoxFill, RiMailLine, RiPhoneLine, RiTwitterFill } from 'react-icons/ri'
 import UpBtn from '../../components/UpBtn';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+
+        emailjs.sendForm('service_3mqq70d', 'template_x3u31b9', e.target, 'hJgDsIzvj6sFsRMki')
+        .then(response => alert('Mensaje enviado!'))
+        .catch(error => console.log(error))
+    }
+
+
     return (
         <div className='contact__section section__margin' id='contact'>
             <div className='contact__info'>
@@ -24,7 +35,7 @@ const Contact = () => {
                 <a href='' target='_blank'><RiTwitterFill color='white' size={25} type='button' className='btn__twitter'>Twitter</RiTwitterFill></a>
             </div>
             <div className='contact__form__container'>
-                <form className='contact__form'>
+                <form className='contact__form' onSubmit={sendEmail}>
 
                     <input type='text'
                      name='user_name'

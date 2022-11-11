@@ -13,7 +13,6 @@
         width: 50%;
         h1 {
             font-size: 46px;
-            margin: 0.2rem;
         }
         p {
             font-size: 20px;
@@ -125,21 +124,6 @@
     }
 }
 
-@media screen and (max-width: 700px) {
-    .home {
-        padding: 0 0;
-        .home__content {
-            margin: 0;
-            h1 {
-                font-size: 30px;
-            }
-            p {
-                font-size: 12px;
-            }
-        }
-    }
-}
-
 @media screen and (max-width: 750px) {
     .home {
         .home__content {
@@ -148,6 +132,45 @@
                 .btn__github, 
                 .btn__twitter {
                     margin: 0 0.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home {
+        padding: 0 0;
+        .home__content {
+            text-align: center;
+            margin: 0;
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                margin: 1rem;
+                font-size: 20px;
+            }
+            .btn {
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .home {
+        .home__content {
+            text-align: center;
+            h1 {
+                font-size: 28px;
+            }
+            .btn {
+                margin-top: 0;
+                flex-direction: column;
+                a {
+                    padding: 0.5rem;
                 }
             }
         }

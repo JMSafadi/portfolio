@@ -21,8 +21,8 @@ const Menu = () => {
                 : <RiMenu3Line color='#fff' size={32} onClick={() => setToggleMenu(true)}/>
             }
             {toggleMenu && (
-                <div className='navbar__menu-container gradient__background scale-up-tr'>
-                    <div className='navbar__menu-container-links'>
+                <div className='navbar__menu-container scale-up-tr'>
+                    <div className='navbar__menu-container-links gradient__background'>
                         <MenuLinks/>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ const Home = () => {
             transition={{
                 duration: 1.5,
             }}>
-                <h1 className='gradient__text bienvenido'>Bienvenido, </h1>
+                <h1 className='gradient__text welcome'>Bienvenido, </h1>
                 <h1 className='gradient__text'>Mi nombre es Julián Safadi</h1>
                 <p>Soy desarrolador front-end, en busca de mi primer experiencia laboral</p>
                 <div className='btn'>

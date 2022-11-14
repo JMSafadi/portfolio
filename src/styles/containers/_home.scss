@@ -35,6 +35,9 @@
                     color: white;
                 }
             }
+            .btn__icons {
+                display: flex;
+            }
             .btn__linkedin,
             .btn__github, 
             .btn__twitter {
@@ -162,7 +165,10 @@
 @media screen and (max-width: 500px) {
     .home {
         .home__content {
-            text-align: center;
+            width: 400px;
+            .btn__icons {
+                padding: 1rem;
+            }
             h1 {
                 font-size: 28px;
             }

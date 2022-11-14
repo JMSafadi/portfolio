@@ -50,7 +50,7 @@
 @media screen and (max-width: 1050px) {
    .about {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       margin-bottom: 5rem;
       .image {
          display: flex;

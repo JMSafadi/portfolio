@@ -11,7 +11,7 @@ const About = () => {
             <div className='about__container'>
                 <div className='title__detail'></div>
                 <h3 className='title'>Sobre mi</h3>
-                <p className='about__me'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p className='about__me'>Si bien siempre fui un apasionado por la tecnologia, hace un tiempo decidi adentrarme en el mundo del desarrollo. Me considero una persona innovadora y creativa.  Me gustaría ser parte de un equipo de trabajo y colaborar en el cumplimiento de sus objetivos. Mi tecnología favorita es ReactJS, aunque estoy constantemente aprendiendo nuevas herramientas y practicando en proyectos propios.</p>
             </div>
         </div>
     );

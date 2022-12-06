@@ -6,6 +6,8 @@ import sass from '../../assets/sass.png'
 import javascript from '../../assets/javascript.svg'
 import react from '../../assets/react.png'
 import git from '../../assets/git.png'
+import redux from '../../assets/redux.svg'
+import mui from '../../assets/material-ui.svg'
 
 const Skills = () => {
     return (
@@ -16,7 +18,9 @@ const Skills = () => {
                 <img src={sass} alt='sass' className='sass'/>
                 <img src={javascript} alt='javascript' className='javascript'/>
                 <img src={react} alt='react' className='react'/>
+                <img src={redux} alt='redux' className='redux'/>
                 <img src={git} alt='git' className='git'/>
+                <img src={mui} alt='mui' className='mui'/>
             </div>
             <div className='skills__title-section'>
                 <div className='title__detail gradient__background'></div>

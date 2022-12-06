@@ -25,6 +25,9 @@
             color: $color-text;
             font-size: 20px;
             padding: 1rem;
+            &:hover {
+                color: white;
+            }
         }
     }
 }

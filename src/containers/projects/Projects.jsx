@@ -42,8 +42,8 @@ const Projects = () => {
             </motion.div>
             <motion.div className='projects__grid' animate={animation}>
                 <Project image={project1img} gh_code='https://github.com/JMSafadi/to-do-list' deploy='https://jmsafadi.github.io/to-do-list/' title='Lista de tareas' description='Un recordatorio donde podes agregar y eliminar tus tareas diarias. Uno de mis primeros proyectos usando React, SCSS y Bootstrap'/>
-                <Project image={project2img} title='GitHub User Searcher' description='En esta aplicacion vas a poder buscar cualquier perfil registrado en GitHub. Utilice React, MaterialUI y consumi la API de los perfiles de GitHub'/>
-                <Project image={project3img} title='Jumasa Movies' description='Con la API de TheMovieDB desarrolle esta aplicacion de peliculas y series. Podes buscar por genero, tendencias, o el nombre de tu favorita.'/>
+                <Project image={project2img} gh_code='https://github.com/JMSafadi/gh-users-searcher' deploy='https://jmsafadi.github.io/gh-users-searcher/' title='GitHub User Searcher' description='En esta aplicacion vas a poder buscar cualquier perfil registrado en GitHub. Utilice React, MaterialUI y consumi la API de los perfiles de GitHub'/>
+                <Project image={project3img} gh_code='https://github.com/JMSafadi/jumasa-movies' title='Jumasa Movies' description='Con la API de TheMovieDB desarrolle esta aplicacion de peliculas y series. Podes buscar por genero, tendencias, o el nombre de tu favorita.'/>
             </motion.div>
         </div>
     );

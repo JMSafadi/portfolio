@@ -38,8 +38,8 @@ const Projects = () => {
     return (
         <div ref={ref} className='projects__section padding_section' id='projects'>
             <motion.div className='projects__grid' animate={animation}>
-                <Project image={project4img} gh_code='https://github.com/JMSafadi/challenge' deploy='https://jmsafadi.github.io/challenge/' title='Formulario de encuesta' description='Formulario que genere items de encuesta con informacion de un JSON. Las respuestas se envian a una base de datos Firebase y se muestran en otra ruta.'/>
-                <Project image={project5img} gh_code='https://github.com/JMSafadi/pokedux' deploy='https://jmsafadi.github.io/gh-users-searcher/' title='Pokedux' description='Aplicacion consumiendo pokeAPI que muestra Pokemons de distintos tipos. Podes filtrar y escoger tus favoritos. El estado de la aplicacion es manejado exclusivamente por Redux.'/>
+                <Project image={project4img} gh_code='https://github.com/JMSafadi/challenge' deploy='https://jmsafadi.github.io/challenge/' title='Formulario de encuesta' description='Formulario que genere inputs con informacion de un JSON. Las respuestas se envian a una BDD Firebase y se muestran en otra ruta.'/>
+                <Project image={project5img} gh_code='https://github.com/JMSafadi/pokedux' deploy='https://jmsafadi.github.io/gh-users-searcher/' title='Pokedux' description='Aplicacion consumiendo pokeAPI que muestra Pokemons de distintos tipos. Podes filtrar y escoger tus favoritos. Estado controlado con Redux.'/>
                 <Project image={project6img} gh_code='https://github.com/JMSafadi/petgram-app' title='Petgram' description='Con la API de TheMovieDB desarrolle esta aplicacion de peliculas y series. Podes buscar por genero, tendencias, o el nombre de tu favorita.'/>
             </motion.div>
             <motion.div className='projects__content' animate={animation}>

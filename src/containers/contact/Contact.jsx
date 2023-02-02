@@ -32,7 +32,7 @@ const Contact = () => {
             <div className='contact__icons'>
                 <a href='https://www.linkedin.com/in/juliansafadi/' target='_blank'><RiLinkedinBoxFill color='white' size={25} type='button' className='btn__linkedin'></RiLinkedinBoxFill></a>
                 <a href='https://github.com/JMSafadi' target='_blank'><RiGithubFill color='white' size={25} type='button' className='btn__github'>Gith</RiGithubFill></a>
-                <a href='' target='_blank'><RiTwitterFill color='white' size={25} type='button' className='btn__twitter'>Twitter</RiTwitterFill></a>
+                <a href='https://twitter.com/jumasa0' target='_blank'><RiTwitterFill color='white' size={25} type='button' className='btn__twitter'>Twitter</RiTwitterFill></a>
             </div>
             <div className='contact__form__container'>
                 <form className='contact__form' onSubmit={sendEmail}>

@@ -30,7 +30,7 @@ const Home = () => {
                     <div className='btn__icons'>
                         <a href='https://www.linkedin.com/in/juliansafadi/' target='_blank'><RiLinkedinBoxFill color='white' size={25} className='btn__linkedin'></RiLinkedinBoxFill></a>
                         <a href='https://github.com/JMSafadi' target='_blank'><RiGithubFill color='white' size={25} type='button' className='btn__github'>Gith</RiGithubFill></a>
-                        <a href=''><RiTwitterFill color='white' size={25} type='RiTwitterFill' className='btn__twitter'>Twitter</RiTwitterFill></a>
+                        <a href='https://twitter.com/jumasa0' target='_blank'><RiTwitterFill color='white' size={25} type='RiTwitterFill' className='btn__twitter'>Twitter</RiTwitterFill></a>
                     </div>
                 </div>
             </motion.div>

@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../styles/containers/_about.scss'
-import image from '../../assets/aasd.png'
+import animation2 from '../../assets/animation2.png'
 
 const About = () => {
     return (
         <div className='about section__margin' id='about'>
             <div className='image'>
-                <img src={image} alt='image' className='image'/>
+                <img src={animation2} alt='image' className='image'/>
             </div>
             <div className='about__container'>
                 <div className='title__detail'></div>

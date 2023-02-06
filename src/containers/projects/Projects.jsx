@@ -8,7 +8,7 @@ import project2img from '../../assets/gh-user-searcher.png'
 import project3img from '../../assets/jumasamovies.png'
 import project4img from '../../assets/form.png'
 import project5img from '../../assets/pokeduxpre.png'
-import project6img from '../../assets/petgram.png'
+import project6img from '../../assets/app screenshoot.png'
 
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
@@ -40,7 +40,7 @@ const Projects = () => {
             <motion.div className='projects__grid' animate={animation}>
                 <Project image={project4img} gh_code='https://github.com/JMSafadi/challenge' deploy='https://jmsafadi.github.io/challenge/' title='Formulario de encuesta' description='Formulario que genere inputs con informacion de un JSON. Las respuestas se envian a una BDD Firebase y se muestran en otra ruta.'/>
                 <Project image={project5img} gh_code='https://github.com/JMSafadi/pokedux' deploy='https://pokedux-app.web.app/' title='Pokedux' description='Aplicacion consumiendo pokeAPI que muestra Pokemons de distintos tipos. Podes filtrar y escoger tus favoritos. Estado controlado con Redux.'/>
-                <Project image={project6img} gh_code='https://github.com/JMSafadi/petgram-app' title='Petgram' description='Con la API de TheMovieDB desarrolle esta aplicacion de peliculas y series. Podes buscar por genero, tendencias, o el nombre de tu favorita.'/>
+                <Project image={project6img} gh_code='https://github.com/JMSafadi/petgram-app' deploy='https://jmsafadi.github.io/ecommerce-app/' title='Juma Sports' description='E-commerce de ropa deportiva. Con la API de Paypal para recibir pagos.'/>
             </motion.div>
             <motion.div className='projects__content' animate={animation}>
                 <div className='projects__title__container'>

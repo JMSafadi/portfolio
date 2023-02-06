@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/asd1.svg'
+import logo from '../assets/logo.svg'
 import { motion } from 'framer-motion';
 
 const Logo = () => {

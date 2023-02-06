@@ -39,7 +39,7 @@ const Projects = () => {
         <div ref={ref} className='projects__section padding_section' id='projects'>
             <motion.div className='projects__grid' animate={animation}>
                 <Project image={project4img} gh_code='https://github.com/JMSafadi/challenge' deploy='https://jmsafadi.github.io/challenge/' title='Formulario de encuesta' description='Formulario que genere inputs con informacion de un JSON. Las respuestas se envian a una BDD Firebase y se muestran en otra ruta.'/>
-                <Project image={project5img} gh_code='https://github.com/JMSafadi/pokedux' deploy='https://jmsafadi.github.io/gh-users-searcher/' title='Pokedux' description='Aplicacion consumiendo pokeAPI que muestra Pokemons de distintos tipos. Podes filtrar y escoger tus favoritos. Estado controlado con Redux.'/>
+                <Project image={project5img} gh_code='https://github.com/JMSafadi/pokedux' deploy='https://pokedux-app.web.app/' title='Pokedux' description='Aplicacion consumiendo pokeAPI que muestra Pokemons de distintos tipos. Podes filtrar y escoger tus favoritos. Estado controlado con Redux.'/>
                 <Project image={project6img} gh_code='https://github.com/JMSafadi/petgram-app' title='Petgram' description='Con la API de TheMovieDB desarrolle esta aplicacion de peliculas y series. Podes buscar por genero, tendencias, o el nombre de tu favorita.'/>
             </motion.div>
             <motion.div className='projects__content' animate={animation}>
@@ -51,7 +51,7 @@ const Projects = () => {
             </motion.div>
             <motion.div className='projects__grid' animate={animation}>
                 <Project image={project1img} gh_code='https://github.com/JMSafadi/to-do-list' deploy='https://jmsafadi.github.io/to-do-list/' title='Lista de tareas' description='Un recordatorio donde podes agregar y eliminar tus tareas diarias. Uno de mis primeros proyectos usando React, SCSS y Bootstrap'/>
-                <Project image={project2img} gh_code='https://github.com/JMSafadi/gh-users-searcher' deploy='https://jmsafadi.github.io/gh-users-searcher/' title='GitHub User Searcher' description='En esta aplicacion vas a poder buscar cualquier perfil registrado en GitHub. Utilice React, MaterialUI y consumi la API de los perfiles de GitHub'/>
+                <Project image={project2img} gh_code='https://github.com/JMSafadi/gh-users-searcher' deploy='https://jmsafadi.github.io/gh-users-searcher/' title='GitHub Buscador' description='En esta aplicacion vas a poder buscar cualquier perfil registrado en GitHub. Utilice React, MaterialUI y consumi la API de los perfiles de GitHub'/>
                 <Project image={project3img} gh_code='https://github.com/JMSafadi/jumasa-movies' title='Jumasa Movies' description='Con la API de TheMovieDB desarrolle esta aplicacion de peliculas y series. Podes buscar por genero, tendencias, o el nombre de tu favorita.'/>
             </motion.div>
         </div>

@@ -1,3 +1,4 @@
+import React from 'react'
 import Navbar from './containers/navbar/Navbar'
 import Home from './containers/home/Home'
 import About from './containers/about/About'

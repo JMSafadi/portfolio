@@ -40,7 +40,7 @@ const Projects = () => {
             <motion.div className='projects__grid' animate={animation}>
                 <Project image={project4img} gh_code='https://github.com/JMSafadi/challenge' deploy='https://jmsafadi.github.io/challenge/' title='Formulario de encuesta' description='Formulario que genere inputs con informacion de un JSON. Las respuestas se envian a una BDD Firebase y se muestran en otra ruta.'/>
                 <Project image={project5img} gh_code='https://github.com/JMSafadi/pokedux' deploy='https://pokedux-app.web.app/' title='Pokedux' description='Aplicacion consumiendo pokeAPI que muestra Pokemons de distintos tipos. Podes filtrar y escoger tus favoritos. Estado controlado con Redux.'/>
-                <Project image={project6img} gh_code='https://github.com/JMSafadi/petgram-app' deploy='https://jmsafadi.github.io/ecommerce-app/' title='Juma Sports' description='E-commerce de ropa deportiva. Con la API de Paypal para recibir pagos.'/>
+                <Project image={project6img} gh_code='https://github.com/JMSafadi/petgram-app' deploy='https://jmsafadi.github.io/ecommerce-app/' title='Juma Sports' description='E-commerce de ropa deportiva. Integracion de Paypal API para pagos, React Helmet para el SEO y Google Maps API para ver ubicacion del envio.'/>
             </motion.div>
             <motion.div className='projects__content' animate={animation}>
                 <div className='projects__title__container'>

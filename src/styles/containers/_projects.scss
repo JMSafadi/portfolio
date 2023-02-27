@@ -21,8 +21,6 @@
         }
     }
 
-
-
 .project__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -87,33 +85,14 @@
     }
 }
 
-.reverse{
-    color: black;
-  }
-
-@media screen and (max-width: 920px) {
+@media screen and (max-width:768px) {
     .projects__section {
-        display: flex;
-        flex-direction: column;
-        .projects__content {
-            .projects__title__container {
-                .projects__image {
-                    width: 300px;
-                    height: 350px;
-                }
+        padding-top: 1rem;
+        .project__container {
+            width: 650px;
+            .project__image {
+                width: 300px;
             }
         }
     }
-    .projects__grid {
-        margin-top: -1rem;
-        .project__container {
-            margin: 2rem;
-        }
-    }
 }
-
-
-
-
-
-

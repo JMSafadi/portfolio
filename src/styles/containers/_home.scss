@@ -8,7 +8,7 @@
     .home__content {
         display: flex;
         flex-direction: column;
-        align-items: left;
+        // align-items: stretch;
         margin: 1.5rem;
         width: 50%;
         h1 {
@@ -23,7 +23,6 @@
             margin: 1rem;
             display: flex;
             flex-direction: row;
-            justify-content: flex-start;
             align-items: center;
             .btn__contact {
                 padding: 1rem;
@@ -57,128 +56,26 @@
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 768px) {
     .home {
-        flex-direction: column;
+        .images img {
+            width: 250px;
+            height: 280px;
+        }
         .home__content {
             h1 {
-                font-size: 42px;
-            }
-        }
-        .images {
-            img {
-                width: 80%;
-                height: 80%;
-            }
-        }
-    }
-
-}
-
-
-@media screen and (max-width: 854px) {
-    .home {
-        .home__content {
-            .btn {
-                .btn__contact {
-                    padding: 0.8rem;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 820px) {
-    .home {
-        .home__content {
-            .btn {
-                .btn__linkedin,
-                .btn__github, 
-                .btn__twitter {
-                    margin: 0 1rem;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 760px) {
-    .home {
-        .home__content {
-            .btn {
-                .btn__contact {
-                    padding: 0.5rem 1rem;
-                    font-size: 15px;
-                }
-                .btn__linkedin {
-                    margin: 12px;
-                    width: 2rem;
-                }
-                .btn__github {
-                    margin: 12px;
-                    width: 2rem;
-                }
-                .btn__twitter {
-                    margin: 12px;
-                    width: 2rem;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .home {
-        .home__content {
-            .btn {
-                .btn__linkedin,
-                .btn__github, 
-                .btn__twitter {
-                    margin: 0 0.2rem;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .home {
-        padding: 0 0;
-        .home__content {
-            text-align: center;
-            margin: 0;
-            h1 {
-                font-size: 30px;
+                font-size: 32px;
             }
             p {
-                margin: 1rem;
-                font-size: 20px;
+                font-size: 18px;
             }
             .btn {
-                justify-content: space-around;
-            }
-        }
-    }
-}
-
-
-@media screen and (max-width: 500px) {
-    .home {
-        .home__content {
-            width: 400px;
-            .btn__icons {
-                padding: 1rem;
-            }
-            h1 {
-                font-size: 28px;
-            }
-            .btn {
-                margin-top: 0;
-                flex-direction: column;
-                a {
-                    padding: 0.5rem;
+                margin: 15px auto;
+                .btn__contact {
+                    padding: 12px;
                 }
             }
         }
     }
+
 }

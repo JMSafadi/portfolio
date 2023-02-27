@@ -113,20 +113,3 @@
     }
 }
 }
-
-@media screen and (max-width: 480px) {
-    .contact__section {
-        .contact__form__container {
-            .contact__form {
-                .input__name,
-                .input__mail,
-                .input__message {
-                    width: 300px;
-                }
-                .btn__submit {
-                    width: 300px;
-                }
-            }
-        }
-    }
-}

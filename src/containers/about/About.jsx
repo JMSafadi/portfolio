@@ -11,7 +11,7 @@ const About = () => {
             <div className='about__container'>
                 <div className='title__detail'></div>
                 <h3 className='title'>Sobre mi</h3>
-                <p className='about__me'>Si bien siempre fui un apasionado por la tecnologia, hace un tiempo decidi adentrarme en el mundo del desarrollo. Me considero una persona innovadora y creativa.  Me gustaría ser parte de un equipo de trabajo y colaborar en el cumplimiento de sus objetivos. Mi tecnología favorita es ReactJS, aunque estoy constantemente aprendiendo nuevas herramientas y practicando en proyectos propios.</p>
+                <p className='about__me'>Desarrollador web frontend en busca de mi primera experiencia laboral en IT, que me ayude a lanzar mi carrera. Especializado en React, interesado en desplegar proyectos escalables y amigables para el usuario tomando en cuenta las estrategias de UX. Me gustaría ser parte de un equipo de trabajo, rodearme de personas con mas experiencia y ayudar a cumplir los objetivos.</p>
             </div>
         </div>
     );

@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    margin-bottom: 0;
     color: white;
     .contact__info {
         display: flex;
@@ -112,4 +113,64 @@
         }
     }
 }
+}
+
+@media screen and (max-width:425px) {
+    .contact__section {
+        .contact__info {
+            h2 {
+                font-size: 1.2rem;
+            }
+            .contact__email {
+                p {
+                    font-size: 1rem;
+                }
+            }
+            .contact__phone {
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+        .contact__icons {
+            margin-top: 10px;
+            .btn__linkedin, 
+            .btn__github, 
+            .btn__twitter {
+                width: 20px;
+            }
+        }
+        .contact__form__container {
+            .contact__form {
+                .input__name,
+                .input__mail,
+                .input__message {
+                    width: 300px;
+                }
+                .btn__submit {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .contact__section {
+        .contact__form__container {
+            .contact__form {
+                .input__name,
+                .input__mail {
+                    width: 250px;
+                    height: 30px;
+                }
+                .input__message {
+                    width: 250px;
+                }
+                .btn__submit {
+                    width: 250px;
+                }
+            }
+        }
+    }
 }

@@ -4,7 +4,7 @@ import animation2 from '../../assets/animation2.png'
 
 const About = () => {
     return (
-        <div className='about section__margin' id='about'>
+        <div className='about section__padding' id='about'>
             <div className='image'>
                 <img src={animation2} alt='image'/>
             </div>

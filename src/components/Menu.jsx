@@ -17,8 +17,8 @@ const Menu = () => {
     return (
         <div className='navbar__menu'>
             {toggleMenu
-                ? <RiCloseLine color='#fff' size={32} onClick={() => setToggleMenu(false)}/>
-                : <RiMenu3Line color='#fff' size={32} onClick={() => setToggleMenu(true)}/>
+                ? <RiCloseLine color='#81AFDD' size={32} onClick={() => setToggleMenu(false)}/>
+                : <RiMenu3Line color='#81AFDD' size={32} onClick={() => setToggleMenu(true)}/>
             }
             {toggleMenu && (
                 <div className='navbar__menu-container scale-up-tr'>

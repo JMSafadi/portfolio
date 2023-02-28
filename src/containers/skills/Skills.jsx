@@ -8,6 +8,7 @@ import react from '../../assets/react.png'
 import git from '../../assets/git.png'
 import redux from '../../assets/redux.svg'
 import mui from '../../assets/material-ui.svg'
+import vue from '../../assets/vue-logo.png'
 
 const Skills = () => {
     return (
@@ -18,6 +19,7 @@ const Skills = () => {
                 <img src={sass} alt='sass' className='sass'/>
                 <img src={javascript} alt='javascript' className='javascript'/>
                 <img src={react} alt='react' className='react'/>
+                <img src={vue} alt='vue' className='vue'/>
                 <img src={redux} alt='redux' className='redux'/>
                 <img src={git} alt='git' className='git'/>
                 <img src={mui} alt='mui' className='mui'/>

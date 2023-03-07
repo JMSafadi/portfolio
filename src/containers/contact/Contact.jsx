@@ -1,19 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../styles/containers/_contact.scss'
 import { RiGithubFill, RiLinkedinBoxFill, RiMailLine, RiPhoneLine, RiTwitterFill } from 'react-icons/ri'
 import UpBtn from '../../components/UpBtn';
 import emailjs from '@emailjs/browser';
+import swal from 'sweetalert';
+import { BounceLoader } from 'react-spinners';
 
 const Contact = () => {
 
+    const [submitting, setSubmitting] = useState(false);
+
     const sendEmail = (e) => {
         e.preventDefault()
-
+        setSubmitting(true)
         emailjs.sendForm('service_3mqq70d', 'template_x3u31b9', e.target, 'hJgDsIzvj6sFsRMki')
-        .then(response => alert('Mensaje enviado!'))
-        .catch(error => console.log(error))
+        .then(response => swal({
+            title: 'Email correctamente enviado!',
+            text: 'Recibiras mi respuesta lo mas pronto posible',
+            icon: 'success',
+            button: 'Aceptar'
+        }))
+        .then(response => setSubmitting(false))
+        .catch(error => swal({
+            title: 'El email no ha podido enviarse',
+            text: error,
+            icon: 'error',
+            button: 'Aceptar'
+        }))
     }
-
 
     return (
         <div className='contact__section section__margin' id='contact'>
@@ -55,7 +69,16 @@ const Contact = () => {
                      className='input__message'
                      />
 
-                    <button type='submit' className='btn__submit'>Enviar</button>
+                    <button type='submit' className='btn__submit'>
+                        {submitting 
+                            ? 
+                                <>
+                                <p>Enviando</p>
+                                <BounceLoader color='#fff' size={25}></BounceLoader>
+                                </>
+                            :   'Enviar'
+                        }
+                    </button>
                 </form>
             </div>
         <UpBtn/>

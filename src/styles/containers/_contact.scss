@@ -77,7 +77,10 @@
                 border: none;
             }
             .btn__submit {
+                display: grid;
+                grid-template-columns: 90% 10%;
                 padding: 1rem;
+                padding-left: 40px;
                 width: 400px;
                 background: $gradient-bar;
                 border-radius: 10px;
@@ -172,5 +175,26 @@
                 }
             }
         }
+    }
+}
+
+.swal-title {
+    color: black;
+}
+
+.swal-text {
+    color: black;
+    font-size: 18px;
+}
+
+.swal-button {
+    color: black;
+    background: $gradient-bar;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+    &:hover {
+        color: white;
     }
 }

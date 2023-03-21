@@ -3,6 +3,15 @@
 
 Portfolio realizado con React donde encontraras mis redes para contactarme, mis proyectos principales y las tecnologias que utilizo. Espero que te guste
 
+**Tecnologias:**
+* Vite
+* React
+* Email JS
+* Material UI
+* Firebase
+* Sweetalert
+* Framer Motion
+
 Para correr en tu servidor local:
 ```
 npm install

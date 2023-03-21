@@ -12,7 +12,7 @@ Portfolio realizado con React donde encontraras mis redes para contactarme, mis 
 * Sweetalert
 * Framer Motion
 
-Para correr en tu servidor local:
+**Para correr el proyecto en servidor local, clona el repositorio y despues corre los siguientes comandos:**
 ```
 npm install
 npm run dev

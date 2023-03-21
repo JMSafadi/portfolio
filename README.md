@@ -9,6 +9,6 @@ npm install
 npm run dev
 ```
 
-[Deploy](https://helix-eye.web.app/)
+[Deploy]([https://juliansafadi-app.web.app/](https://juliansafadi-app.web.app/))
 ---
-Más proyectos en mi [portfolio](https://juliansafadi-app.web.app/)
+

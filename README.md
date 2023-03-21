@@ -9,6 +9,6 @@ npm install
 npm run dev
 ```
 
-[Deploy]([https://juliansafadi-app.web.app/](https://juliansafadi-app.web.app/))
+[Deploy](https://juliansafadi-app.web.app/)
 ---
 

@@ -24,7 +24,7 @@ const Home = () => {
             }}>
                 <h1 className='gradient__text welcome'>Bienvenido, </h1>
                 <h1 className='gradient__text'>Mi nombre es Julián Safadi</h1>
-                <p>Desarrollador front-end apasionado por la tecnología</p>
+                <p>Desarrollador frontend apasionado por la tecnología</p>
                 <div className='btn'>
                     <a href='#contact'><button type='button' className='btn__contact gradient__button'>Contactame</button></a>
                     <div className='btn__icons'>

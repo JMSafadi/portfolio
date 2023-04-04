@@ -15,17 +15,17 @@ const Contact = () => {
         setSubmitting(true)
         emailjs.sendForm('service_3mqq70d', 'template_x3u31b9', e.target, 'hJgDsIzvj6sFsRMki')
         .then(response => swal({
-            title: 'Email correctamente enviado!',
-            text: 'Recibiras mi respuesta lo mas pronto posible',
+            title: 'Email sent successfully!',
+            text: 'You will recive my response as soon as posible',
             icon: 'success',
-            button: 'Aceptar'
+            button: 'Accept'
         }))
         .then(response => setSubmitting(false))
         .catch(error => swal({
-            title: 'El email no ha podido enviarse',
+            title: 'The email could not be sent.',
             text: error,
             icon: 'error',
-            button: 'Aceptar'
+            button: 'Accept'
         }))
     }
 
@@ -33,7 +33,7 @@ const Contact = () => {
         <div className='contact__section section__margin' id='contact'>
             <div className='contact__info'>
                 <div className='title__detail'></div>
-                <h2 className='contact__title'>Contactame</h2>
+                <h2 className='contact__title'>Contact</h2>
                 <div className='contact__email'>
                     <RiMailLine/>
                     <p>julianmatiassafadi@hotmail.com</p>
@@ -53,19 +53,19 @@ const Contact = () => {
 
                     <input type='text'
                      name='user_name'
-                     placeholder='Tu nombre' 
+                     placeholder='Name' 
                      className='input__name'
                      />
 
                     <input type='text'
                      name='user_email'
-                     placeholder='Tu email' 
+                     placeholder='Email' 
                      className='input__mail'
                      />
 
                     <textarea type='text'
                      name='user_message'
-                     placeholder='Mensaje'
+                     placeholder='Message'
                      className='input__message'
                      />
 
@@ -73,10 +73,10 @@ const Contact = () => {
                         {submitting 
                             ? 
                                 <>
-                                <p>Enviando</p>
+                                <p>Sending...</p>
                                 <BounceLoader color='#fff' size={25}></BounceLoader>
                                 </>
-                            :   'Enviar'
+                            :   'Send'
                         }
                     </button>
                 </form>

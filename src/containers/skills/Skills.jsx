@@ -26,7 +26,7 @@ const Skills = () => {
             </div>
             <div className='skills__title-section'>
                 <div className='title__detail gradient__background'></div>
-                <h3 className='skills__title'>Tecnologías</h3>
+                <h3 className='skills__title'>Skills</h3>
             </div>
         </div>
     );

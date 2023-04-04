@@ -10,9 +10,8 @@ const About = () => {
             </div>
             <div className='about__container'>
                 <div className='title__detail'></div>
-                <h3 className='title'>Sobre mi</h3>
-                <p className='about__me'>Desarrollador web frontend en busca de mi primera experiencia laboral en IT, que me ayude a lanzar mi carrera. Especializado en React, interesado en desplegar proyectos escalables y amigables para el usuario tomando en cuenta las estrategias de UX. Me gustaría ser parte de un equipo de trabajo, rodearme de personas con mas experiencia y ayudar a cumplir los objetivos. A su vez, seguir aprendiendo
-                constatemente nuevas herramientas y tecnologias.
+                <h3 className='title'>About me</h3>
+                <p className='about__me'>Frontend web developer looking for my first IT work experience to help launch my career. Specialized in React, interested in deploying scalable and user-friendly projects while considering UX strategies. I would like to be part of a team, surrounded by experienced people, and help achieve objectives. At the same time, I want to continue learning new tools and technologies constantly.
                 </p>
             </div>
         </div>

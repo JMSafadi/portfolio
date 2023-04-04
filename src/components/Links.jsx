@@ -18,10 +18,10 @@ const Links = () => {
                 duration: 1.5,
             }}
             >
-            <p><a href='#home'>Bienvenido</a></p>
-            <p><a href='#about'>Sobre mi</a></p>
-            <p><a href='#skills'>Tecnologias</a></p>
-            <p><a href='#projects'>Mis proyectos</a></p>
+            <p><a href='#home'>Home</a></p>
+            <p><a href='#about'>About</a></p>
+            <p><a href='#skills'>Skills</a></p>
+            <p><a href='#projects'>My projects</a></p>
         </motion.div>
     );
 }

@@ -1,9 +1,9 @@
-[![portfolio.png](https://i.postimg.cc/BvXgVyXc/portfolio.png)](https://postimg.cc/kVPKVTNB)
+[![portfolio.png](https://i.postimg.cc/cLzxGxXF/portfolio.png)](https://postimg.cc/VJjQj8yt)
 # Portfolio
 
-Portfolio realizado con React donde encontraras mis redes para contactarme, mis proyectos principales y las tecnologias que utilizo. Espero que te guste
+A website where you can find my social media to contact me, view my main projects, and the technologies I use
 
-**Tecnologias:**
+**Technologies:**
 * Vite
 * React
 * Email JS
@@ -12,12 +12,12 @@ Portfolio realizado con React donde encontraras mis redes para contactarme, mis 
 * Sweetalert
 * Framer Motion
 
-**Para correr el proyecto en servidor local, clona el repositorio y despues corre los siguientes comandos:**
+**To run the project on a local server, clone the repository and then run the following commands:**
 ```
 npm install
 npm run dev
 ```
 
-[Deploy](https://juliansafadi-app.web.app/)
+[Go to porfolio](https://juliansafadi-app.web.app/)
 ---
 

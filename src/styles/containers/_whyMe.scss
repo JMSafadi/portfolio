@@ -1,0 +1,41 @@
+@import '../variables';
+
+.whyMe {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  height: 550px;
+  margin-bottom: 3rem;
+  .whyMe__title-container {
+      .title__detail {
+        @include text-detail
+      }
+      .whyMe__title {
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+  }
+  .whyMe__container {
+    display: flex;
+    gap: 2rem;
+    min-height: 400px;
+    margin: 2rem;
+    .whyMe__card {
+      background: $gradient-bar;
+      border-radius: 10px;
+      padding: 1rem 2rem;
+      width: 350px;
+      .whyMe__card-title {
+        margin-bottom: 1rem;
+      }
+      .whyMe__card-text {
+        line-height: 1.3rem;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}

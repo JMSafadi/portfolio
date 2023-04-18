@@ -13,6 +13,10 @@ import tailwind from '../../assets/tailwind.png'
 const Skills = () => {
     return (
         <div className='skills section__padding section__margin' id='skills'>
+            <div className='skills__title-section'>
+                <div className='title__detail gradient__background'></div>
+                <h3 className='skills__title'>Technologies</h3>
+            </div>
             <div className='skills__logos'>
                 <img src={html} alt='html' className='html'/>
                 <img src={css} alt='css' className='css'/>
@@ -23,10 +27,6 @@ const Skills = () => {
                 <img src={tailwind} alt='tailwind' className='tailwind'/>
                 <img src={redux} alt='redux' className='redux'/>
                 <img src={git} alt='git' className='git'/>
-            </div>
-            <div className='skills__title-section'>
-                <div className='title__detail gradient__background'></div>
-                <h3 className='skills__title'>Skills</h3>
             </div>
         </div>
     );

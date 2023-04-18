@@ -6,6 +6,7 @@ import './styles/index.scss'
 import Skills from './containers/skills/Skills'
 import Projects from './containers/projects/Projects'
 import Contact from './containers/contact/Contact'
+import WhyMe from './containers/whyMe/whyMe'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <WhyMe/>
       <Contact/>
     </div>
   )

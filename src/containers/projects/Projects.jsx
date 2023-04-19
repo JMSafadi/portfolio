@@ -42,8 +42,8 @@ const Projects = () => {
                     <h3 className='projects__title'>My projects</h3>
                 </div>
             </motion.div>
-            <motion.div animate={animation}>
-                <Project image={project1img} gh_code='https://github.com/JMSafadi/crypto-exchange-batatabit' deploy='https://batatabitcrypto.web.app/' title='Batatabit Crypto' description='At Batatabit, you can find information about the top 50 cryptocurrencies by market capitalization. You can view their price, ranking, and 24-hour variation. The styles were created with pure CSS, without libraries, and it is responsive for access from any device.'/>
+            <motion.div className='projects__grid' animate={animation}>
+                <Project image={project1img} gh_code='https://github.com/JMSafadi/crypto-exchange-batatabit' deploy='https://batatabitcrypto.web.app/' title='Batatabit Crypto' description='At Batatabit, you can find information about the top 50 cryptocurrencies by market capitalization. You can view their price, ranking, and 24-hour variation.'/>
                 <Project image={project3img} gh_code='https://github.com/JMSafadi/helix-eye' deploy='https://helix-eye.web.app/' title='Helix Eye' description="At Helix Eye, you can see real information about outer space and its galaxies. The information is provided by NASA's official API."/>
                 <Project image={project6img} gh_code='https://github.com/JMSafadi/clothify' deploy='https://shop-clothify.web.app/' title='Clothify' description="Clothify is an e-commerce website built with React and styled with TailwindCSS. You can add as many items as you want to your shopping cart and view each product in detail on a separate route. It is responsive for any device."/>
                 <Project image={project4img} gh_code='https://github.com/JMSafadi/challenge' deploy='https://jmsafadi.github.io/challenge/' title='Poll form' description='Application created with React that reads a JSON file and generates a survey interface with each item. The survey responses are sent to a Firebase database and then displayed in table format on another route.'/>

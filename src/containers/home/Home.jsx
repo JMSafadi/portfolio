@@ -2,12 +2,12 @@ import React from 'react';
 import '../../styles/containers/_home.scss'
 import '../../styles/_settings.scss'
 import { RiGithubFill, RiLinkedinBoxFill, RiTwitterFill } from 'react-icons/ri'
-import image1 from '../../assets/Illustration.png'
+import image1 from '../../assets/header-ilustration.png'
 import { motion } from 'framer-motion';
 
 const Home = () => {
     return (
-        <div className='home section__padding' id='home' >
+        <div className='home' id='home' >
             <motion.div className='home__content' 
             initial={{
                 x: 500,
@@ -22,8 +22,8 @@ const Home = () => {
             transition={{
                 duration: 1.5,
             }}>
-                <h1 className='gradient__text welcome'>Welcome, </h1>
-                <h1 className='gradient__text'>my name is Julian Safadi</h1>
+                <h1 className='gradient__text welcome'>Welcome! </h1>
+                <h1 className='gradient__text'>My name is Julian Safadi</h1>
                 <p>Front-end developer based in Buenos Aires, Argentina</p>
                 <div className='btn'>
                     <a href='#contact'><button type='button' className='btn__contact gradient__button'>Contact</button></a>

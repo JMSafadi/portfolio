@@ -57,25 +57,7 @@
    }
 }
 
-@media screen and (max-width:768px) {
-   .about {
-      .image img {
-         width: 320px;
-         height: 280px;
-      }
-      .about__container {
-         padding: 20px;
-         .title {
-            font-size: 20px;
-         }
-         .about__me {
-            font-size: 14px;
-         }
-      }
-   }
-}
-
-@media screen and (max-width:425px) {
+@media screen and (max-width: 1056px) {
    .about {
       flex-direction: column-reverse;
    }

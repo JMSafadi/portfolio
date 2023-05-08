@@ -6,8 +6,9 @@ const MenuLinks = () => (
     <>
         <p><a href='#home'>Home</a></p>
         <p><a href='#about'>About</a></p>
-        <p><a href='#skills'>Skills</a></p>
+        <p><a href='#technologies'>Technologies</a></p>
         <p><a href='#projects'>My projects</a></p>
+        <p><a href='#whyMe'>Why me?</a></p>
     </>
 )
 

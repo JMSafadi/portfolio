@@ -33,7 +33,7 @@
     gap: 0.5rem;
     padding: 0.8rem;
     margin: 1rem;
-    min-width: 580px;
+    width: 580px;
     height: 200px;
     background: $color-footer;
     background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
@@ -94,58 +94,61 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1224px) {
     .projects__section {
-        padding-top: 1rem;
-        .project__container {
-            width: 650px;
-            .project__image {
-                width: 300px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width:425px) {
-    .projects__section {
-        padding-top: 0;
-        .projects__content {
-            .projects__title__container {
-                .projects__title {
-                    font-size: 1.5rem;
-                }
-            }
-        }
-        .project__container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 320px;
-            .project__image {
-                margin-top: 10px;
-                img {
-                    width: 200px;
-                    height: 100px;
-                }
+        .projects__grid {
+            .project__container {
+                width: 450px;
             }
             .project__content {
-                padding: 0;
-                h4 {
-                    padding-top: 5px;
-                }
                 p {
-                    display: none;
+                    font-size: 0.7rem;
+                    line-height: 1rem;
                 }
             }
         }
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 1000px) {
     .projects__section {
-        .project__container {
-            width: 240px;
+        .projects__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            .project__container {
+                width: 600px;
+                p {
+                    font-size: 0.8rem;
+                    line-height: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .projects__section {
+        .projects__grid {
+            .project__container {
+                display: flex;
+                flex-direction: column;
+                height: 315px;
+                width: 450px;
+                .project__image {
+                    height: 120px;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 0.5rem;
+                    .project__img {
+                        vertical-align: top;
+                        height: 100%;
+                        width: 300px;
+                    }
+                }
+                .project__content {
+                    align-items: center;
+                }
+            }
         }
     }
 }

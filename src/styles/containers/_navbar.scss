@@ -36,15 +36,15 @@
 .navbar__menu {
     margin-left: 1rem;
     display: none;
-    position: relative;
 }
 
 .navbar__menu-container {
     position: absolute;
-    top: 50px;
-    right: 0;
-    border-radius: 8px;
+    top: 100px;
+    right: 50px;
     .navbar__menu-container-links {
+        border-radius: 8px;
+        background: $color-footer;
         display: flex;
         flex-direction: column;
         text-align: end;
@@ -58,36 +58,16 @@
     }
 }
 
-
-@media screen and (max-width: 768px) {
-    .navbar__logo .logo {
-        width: 50px;
-        height: 50px;
-        margin-top: 10px;
-    }
-    .navbar__links p a{
-        font-size: 16px;
-    }
-    .navbar__links {
-        display: none;
-    }
+@media screen and (max-width:960px) {
     .navbar__menu {
         display: flex;
+        justify-content: center;
         align-items: center;
     }
 }
 
-@media screen and (max-width: 425px) {
-    .navbar {
-        padding: 1rem 2.5rem;
-        align-items: center;
-        .navbar__logo {
-            .logo {
-                width: 30px;
-            }
-        }
-        .navbar__menu {
-            width: 25px;
-        }
+@media screen and (max-width:960px) {
+    .navbar__links {
+        display: none;
     }
 }

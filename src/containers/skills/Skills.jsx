@@ -12,7 +12,7 @@ import tailwind from '../../assets/tailwind.png'
 
 const Skills = () => {
     return (
-        <div className='skills section__padding section__margin' id='skills'>
+        <div className='skills section__padding section__margin' id='technologies'>
             <div className='skills__title-section'>
                 <div className='title__detail gradient__background'></div>
                 <h3 className='skills__title'>Technologies</h3>

@@ -60,75 +60,46 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     .home {
-        .images img {
-            width: 250px;
-            height: 280px;
-        }
+        padding: 1rem 3rem;
         .home__content {
             h1 {
-                font-size: 28px;
+                font-size: 38px;
             }
             p {
                 font-size: 16px;
             }
-            .btn {
-                margin: 0 auto;
-                // width: ;
-                .btn__contact {
-                    font-size: 16px;
-                    padding: 8px;
-                    margin-top: 12px;
-                }
-                .btn__icons {
-                    margin-top: 12px;
-                }
+        }
+        .images {
+            margin-left: 2rem;
+            height: 400px;
+            img {
+                padding: 2rem auto;
             }
         }
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 960px) {
     .home {
         flex-direction: column;
-        padding: 0;
         .home__content {
-            min-width: 320px;
-            margin: 0;
+            width: 80%;
+            text-align: center;
             h1 {
-                font-size: 20px;
+                font-size: 42px;
             }
             p {
-                margin: 6px auto;
-                font-size: 14px;
+                font-size: 20px;
             }
-        }
-        .btn {
-            .btn__icons {
-                .btn__twitter, 
-                .btn__github, 
-                .btn__linkedin {
-                    width: 20px;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width:320px) {
-    .home {
-        .home__content {
-            align-items: center;
-            justify-content: center;
-            padding: 0 1.5rem;
-            margin: 1rem auto;
-            text-align: center;
             .btn {
-                .btn__contact {
-                    font-size: 12px;
-                }
+                display: flex;
+                justify-content: center;
             }
+        }
+        .images {
+            height: 500px;
         }
     }
 }

@@ -20,7 +20,7 @@ const Links = () => {
             >
             <p><a href='#home'>Home</a></p>
             <p><a href='#about'>About</a></p>
-            <p><a href='#skills'>Technologies</a></p>
+            {/* <p><a href='#skills'>Technologies</a></p> */}
             <p><a href='#projects'>My projects</a></p>
             <p><a href='#whyMe'>Why me?</a></p>
         </motion.div>

@@ -10,6 +10,8 @@ import javascript from '../../assets/javascript.svg'
 import tailwind from '../../assets/tailwind.png'
 import react from '../../assets/react.png'
 import git from '../../assets/git.png'
+import node from '../../assets/node-js.png'
+import postgresql from '../../assets/postgresql.png'
 
 
 const Home = () => {
@@ -31,13 +33,15 @@ const Home = () => {
             }}>
                 <h1 className='gradient__text welcome'>Welcome! </h1>
                 <h1 className='gradient__text' style={{whiteSpace: 'nowrap', fontSize: '46px'}}>My name is Julian Safadi</h1>
-                <p>Front-end developer based in Argentina</p>
+                <p>Full stack developer based in Argentina</p>
                 <div className='tech__container'>
-                    <img src={html} alt='html-logo'/>
-                    <img src={css} alt='css-logo'/>
-                    <img src={javascript} alt='javascript-logo'/>
+                    {/* <img src={html} alt='html-logo'/> */}
+                    {/* <img src={css} alt='css-logo'/> */}
+                    {/* <img src={javascript} alt='javascript-logo'/> */}
                     <img src={react} alt='react-logo'/>
-                    <img src={tailwind} alt='tailwind-logo'/>
+                    <img src={node} alt='node-logo'/>
+                    <img src={postgresql} alt='postgresql-logo'/>
+                    {/* <img src={tailwind} alt='tailwind-logo'/> */}
                     <img src={git} alt='git-logo'/>
                 </div>
                 <div className='btn'>

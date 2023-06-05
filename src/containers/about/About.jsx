@@ -11,7 +11,7 @@ const About = () => {
             <div className='about__container'>
                 <div className='title__detail'></div>
                 <h3 className='title'>About me</h3>
-                <p className='about__me'>Frontend web developer looking for my first IT work experience to help launch my career. Specialized in React, interested in deploying scalable and user-friendly projects while considering UX strategies. I would like to be part of a team, surrounded by experienced people, and help achieve objectives. At the same time, I want to continue learning new tools and technologies constantly.
+                <p className='about__me'>I am full-stack javascript web developer looking for my first IT work experience to help launch my career. Specialized in React, interested in deploying scalable and user-friendly projects while considering UX strategies. I would like to be part of a team, surrounded by experienced people, and help achieve objectives. At the same time, I want to continue learning new tools and technologies constantly.
                 </p>
             </div>
         </div>

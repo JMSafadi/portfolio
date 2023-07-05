@@ -116,3 +116,17 @@
         }
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .home {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .home {
+        padding-right: 10rem;
+        padding-left: 10rem;
+    }
+}
